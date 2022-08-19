@@ -1,0 +1,143 @@
+:root {
+  --primary: #598988;
+  --secondary: #F6E1E0;
+}
+
+body {
+  font-family: nunito;
+}
+
+/* HEADER */
+
+.walimatulurus p {
+  font-family: Times New Normal, serif;
+  color: var(--primary);
+  font-size: 16px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 713px;
+  background-image: url("asset/img/boonga.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.header-title h1 {
+  font-family: austria, sans-serif;
+  color: var(--primary);
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.header-title #and {
+  font-family: Kaushan Script;
+  color: var(--primary);
+  font-size: 40px;
+}
+
+.date-and-location {
+  margin-top: 10px;
+}
+
+.date-and-location p {
+  font-family: Times New Normal, serif;
+  font-size: 16px;
+  color: var(--primary);
+}
+
+/* CARD-CONTENT */
+
+.card-content {
+  margin-top: 64px;
+}
+
+.card-content p {
+  font-family: Times New Normal, serif;
+}
+
+.card-content .inviter {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.card-content .text-undangan {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 40px;
+}
+
+.card-content .bride-groom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.guest-book-section {
+  background-color: var(--secondary);
+  padding: 4rem;
+}
+
+/* BUTTON */
+.button-section {
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.black-btn {
+  font-family: Nunito;
+  font-weight: 700;
+  background-color: #121212;
+  /* Green */
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25), 0px 4px 16px #A8D8EB;
+  border-radius: 10px;
+}
+
+/* DUA */
+
+.dua {
+  margin-top: 50px;
+  background-color: var(--secondary);
+  padding: 3rem;
+}
+
+.dua p {
+  font-family: angin senja;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* HASHTAG */
+
+.hashtag {
+  background-color: var(--secondary);
+  padding: 3rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .main {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .main .card {
+    width: 420px;
+  }
+}
